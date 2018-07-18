@@ -1,0 +1,32 @@
+.header{
+	text-align: center;
+}
+
+.search{
+	align-content: center;
+}
+
+.list {
+    height: 25px;
+    position: relative;
+    cursor: pointer;
+    display: block;
+    padding: 3px 6px;
+    margin-bottom: -1px;
+    background-color: #fff;
+}
+
+.suggestions{
+    font-weight: normal;
+    width: 400px;
+    padding-left: 0;
+    border: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    z-index: 999;
+    position: relative;
+}
+
+.searchBar{
+	width: 200px;
+}
+

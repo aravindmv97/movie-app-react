@@ -1,0 +1,46 @@
+API KEY V3 : 
+	52ee9d5c12f1a8dba9590b47ffe68904
+
+request token : 
+	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI1MmVlOWQ1YzEyZjFhOGRiYTk1OTBiNDdmZmU2ODkwNCIsInN1YiI6IjViNGM2NmE0OTI1MTQxN2QyMDAzNWU5MyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.Gb9Q0KasQZMSAjBq-ZULHKYgeZmXdZ7EigIfyVSMr0k
+
+access token : 
+	eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYmYiOjE1MzE3NDcxMDgsInN1YiI6IjViNGM2NmE0OTI1MTQxN2QyMDAzNWU5MyIsImp0aSI6Ijg5NTQ4OSIsImF1ZCI6IjUyZWU5ZDVjMTJmMWE4ZGJhOTU5MGI0N2ZmZTY4OTA0Iiwic2NvcGVzIjpbImFwaV9yZWFkIiwiYXBpX3dyaXRlIl0sInZlcnNpb24iOjF9.0DS5FLbPXsxcfWwLplUCySePTQEig4i03Rprr6mGtbE
+
+account_id: 
+	5b4c66a49251417d20035e93
+
+session_id :
+	c8a0f20d3024019c3086e57753cb75f093e23342
+
+https://api.themoviedb.org/3/movie/550?api_key=52ee9d5c12f1a8dba9590b47ffe68904
+
+
+
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYmYiOjE1MzE3NDczNzMsInNjb3BlcyI6WyJwZW5kaW5nX3JlcXVlc3RfdG9rZW4iXSwiZXhwIjoxNTMxNzQ4MjczLCJqdGkiOjg5NTQ5MywiYXVkIjoiNTJlZTlkNWMxMmYxYThkYmE5NTkwYjQ3ZmZlNjg5MDQiLCJyZWRpcmVjdF90byI6Imh0dHA6XC9cL3d3dy50aGVtb3ZpZWRiLm9yZ1wvIiwidmVyc2lvbiI6MX0.XZ2PX0FGk8xO2YSLGhxLs6qD-2Njyrt6hZ-7Ly7MaU8
+
+tok _id ; 46911a33d14c8b202e41ce4d6dbe487766d57659
+
+s_id ; 2b51933fd0191a2bd09198d5336328e17dcf391c
+
+
+SESSION_ID :
+	
+	REQUEST TOKEN
+		https://api.themoviedb.org/3/authentication/token/new?api_key=52ee9d5c12f1a8dba9590b47ffe68904
+
+		{
+		  "success": true,
+		  "expires_at": "2018-07-16 14:45:47 UTC",
+		  "request_token": "becb749b214cac6fe4c91015aa2f26d9e75ffdd1"
+		}
+
+	https://www.themoviedb.org/authenticate/{REQUEST_TOKEN}
+
+	SESSION ID
+		https://api.themoviedb.org/3/authentication/session/new?api_key=52ee9d5c12f1a8dba9590b47ffe68904&request_token=46911a33d14c8b202e41ce4d6dbe487766d57659
+
+		{
+		  "success": true,
+		  "session_id": "2b51933fd0191a2bd09198d5336328e17dcf391c"
+		}
